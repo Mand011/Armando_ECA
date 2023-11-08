@@ -10,3 +10,8 @@ body{
   transition: transform .5s;
   border-radious: 2.5px;
 }
+.btn:hover{
+  transform: translateY(10px);
+  background-color:#07497a;
+  color:#ebe1ca;
+}
