@@ -15,3 +15,17 @@ body{
   background-color:#07497a;
   color:#ebe1ca;
 }
+#page-1-image{
+  animation: fade-in 5s;
+  -webkit-animation: fade-in 5s;
+}
+@keyframes fade-in
+{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}  
+    
