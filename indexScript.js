@@ -6,3 +6,7 @@ let person = {
     age: 38,
 favoritecolor: "white"
 };
+function birthday(){
+  person.age=person.age+1;
+  window.alert(person.age);
+}
